@@ -6,6 +6,8 @@ env/
 __pycache__/
 *.py[cod]
 vendor/
+.env
+node_models/
 
 # 构建产物
 dist/
