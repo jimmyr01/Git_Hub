@@ -1,0 +1,48 @@
+# 依赖目录
+node_modules/
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+vendor/
+
+# 构建产物
+dist/
+build/
+out/
+target/
+*.egg-info/
+.next/
+.nuxt/
+
+# 日志与缓存
+*.log
+logs/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage/
+.coverage
+
+# 环境与密钥
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# 编辑器与系统文件
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时文件
+*.tmp
+*.bak
+tmp/
